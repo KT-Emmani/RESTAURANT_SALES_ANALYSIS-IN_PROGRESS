@@ -4,9 +4,11 @@
 
 - [Project Overview](#project-overview)
 
-- [Data Sources](#data-sources)
+- [Data Source](#data-sources)
 
-- [Recommendations](#recommendations)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+
+- [Key Strategic Insights](#key-strategic-insights)
 
 
 ### Project Overview
@@ -33,7 +35,7 @@ In the initial data preparation phase, I performed the following tasks:
 
 ### Exploratory Data Analysis
 
-📊 1. Overall Business Performance
+### 📊 1. Overall Business Performance
 
 First Quarter:
 
@@ -44,7 +46,7 @@ First Quarter:
 - Total Quantity Sold = 12,097
 
 
-🍽️ 2. Menu Category Performance
+### 🍽️ 2. Menu Category Performance
 
 Sales by Category: 
 
@@ -83,7 +85,7 @@ Quantity Sold by Category:
 ➡️ Italian is the top performer in both sales and orders, but Asian wins in total quantity sold — suggesting many lower-priced, higher-frequency dishes.
 
 
-🍛 3. Top 5 Performing Dishes
+### 🍛 3. Top 5 Performing Dishes
 
 By Sales:
 
@@ -97,7 +99,8 @@ By Sales:
   
 - Hamburger — $ 8.05K
 
-By Orders
+
+By Orders:
 
 - Hamburger — 595
 
@@ -111,66 +114,78 @@ By Orders
 
 
 
-By Quantity Sold
+By Quantity Sold:
 
-Hamburger — 206
+- Hamburger — 622
 
-Cheeseburger — 197
+- Korean Beef Bowl — 588
 
-Korean Beef Bowl — 182
+- Cheeseburger — 583
 
-Tofu Pad Thai — 189
+- Tofu Pad Thai — 562
 
-Spaghetti & Meat… — 153
+- Spaghetti & Meatballs — 470
 
-➡️ Hamburger is the most consistently ordered and consumed item, though it is not the highest revenue generator.
+➡️ Hamburger is the most consistently ordered and consumed dish, though it is not the highest revenue generator.
 ➡️ Korean Beef Bowl generates the most revenue, suggesting a higher price point.
 
-⏰ 4. Time-Based Buying Patterns
-Sales Patterns
 
-Highest total sales occur between:
 
-12 pm – 12:59 pm (lunch rush)
+### ⏰ 4. Time-Based Buying Patterns
 
-5 pm – 6:59 pm (dinner rush)
+
+#### Sales Patterns
+
+ Highest total sales occur between:
+
+ -> 12 pm – 12:59 pm (lunch rush)
+
+ -> 5 pm – 6:59 pm (dinner rush)
 
 Sales dip sharply late at night (after 9 pm).
 
-Orders by Time
 
-Peak order volumes are:
+#### Orders by Time
 
-12 pm – 12:59 pm (most active hour)
+ Peak order volumes are:
 
-6 pm – 7 pm
+ -> 12 pm – 12:59 pm (most active hour)
 
-5 pm – 6 pm
+ -> 5 pm – 6 pm
 
-Quantity Sold by Time
+ -> 6 pm – 7 pm
 
-Mirrors order patterns:
 
-12 pm – 2 pm dominates sales and order volume.
+#### Quantity Sold by Time
 
-Moderate dinner spike again around 6 pm – 7 pm.
+ Mirrors order patterns:
+
+ -> 12 pm – 2 pm dominates sales and order volume.
+
+ -> Moderate dinner spike again around 5 pm – 7 pm.
 
 ➡️ Midday lunch hours are the most profitable and busiest. Dinner is the second major peak.
 
-💲 5. Price Distribution Insights
 
-Most items sold fall in the $10–$15 price range.
 
-$15 range has the highest count (1,417 sales).
+###💲 5. Price Distribution Insights
 
-$10 range next (674).
+Most items sold fall in the $12 – $18 price range.
 
-➡️ Your pricing sweet spot is between $10–$15—this is where customers buy the most.
+-> $12 - $15 range has the highest count (4,219).
 
-📌 Key Strategic Insights
+-> $15 - $18 range next (3,497 ).
+
+➡️ Your pricing sweet spot is between $12 – $18 — this is where customers buy the most.
+
+
+### 📌 Key Strategic Insights
+
+
 1️⃣ Optimize Around Peak Hours
 
 Focus staffing, inventory, and promotions around 12–2 pm and 5–7 pm.
+
 
 2️⃣ Leverage High-Performing Categories
 
@@ -182,6 +197,7 @@ Adding variations to top categories
 
 Running promotions to lift the weaker American segment
 
+
 3️⃣ Flagship Items Identified
 
 Korean Beef Bowl (high revenue item)
@@ -190,9 +206,11 @@ Hamburger (high volume item)
 
 Promote as signature dishes or bundle them.
 
+
 4️⃣ Pricing Strategy is Working
 
 Majority of orders fall in the $10–$15 window—keep core menu pricing here.
+
 
 5️⃣ Growth Momentum Is Strong
 
