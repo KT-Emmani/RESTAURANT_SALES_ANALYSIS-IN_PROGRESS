@@ -41,18 +41,20 @@ In the initial data preparation phase, I performed the following tasks:
 First Quarter:
 
 - Total Sales = $ 159.22k
+  
 - Total Orders = 5,343
+  
 - Total Quantity Sold = 12,097
 
 
 
 Steady Month-over-Month Growth as at March:
 
-Total Sales ≈ 54.6K, up ~7.5% from the previous month.
+- Total Sales ≈ 54.6K, up ~7.5% from the previous month.
 
-Total Orders = 1,833, up ~9.4%.
+- Total Orders = 1,833, up ~9.4%.
 
-Total Quantity Sold = 4,142, up ~7.6%.
+- Total Quantity Sold = 4,142, up ~7.6%.
 
 ➡️ The business is growing consistently across all main KPIs—sales, orders, and units sold.
 
