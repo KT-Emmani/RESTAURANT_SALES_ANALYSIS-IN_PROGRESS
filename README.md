@@ -1,4 +1,4 @@
-# RESTAURANT_SALES_ANALYSIS
+[Restaurant_final_table.csv](https://github.com/user-attachments/files/23911318/Restaurant_final_table.csv)# RESTAURANT_SALES_ANALYSIS
 
 ## Table of Contents
 
@@ -25,91 +25,28 @@ Power Bi
 In the initial data preparation phase, I performed the following tasks:
 
 - Checked for null or blank values in both table menu items and order details. The Menu_Item table had no null or blank values but the Order_Details table had 137 null values.
-- Checked for duplicate values were found in both tables.
+- Checked for duplicate values with the use of Window function and No duplicate values were found in both tables.
+- Checked the standardization of all the columns in both tables, however, I needed to convert the order_time column in the Order_Details table from 12 hour format to 24 hour format.
+- Created a duplicate table for the Order_Details tabe for the conversion of the the order_time column.
+- Created a View Table by joining both tables with the JOIN Statement as the final table to be uploaded to Power Bi for the analysis and visualization.
 
-![Data Model - Pizza Sales - Excel 1_24_2025 6_40_44 PM](https://github.com/user-attachments/assets/0c609f73-16a6-45ef-b878-164ce9bc763d)
 
 
-- Added a column to group the order time, created a table and used the Vlookup Function thus =VLOOKUP([@[order_time]],$S$6:$U$30,3,1) for the Hourly Bucket column.
-  
- ![Data Model - Pizza Sales - Excel 1_24_2025 5_49_06 PM](https://github.com/user-attachments/assets/a1a5f796-9e63-450a-887a-2d1701d34ecb)
 
-- Created a new sheet to use Pivot Tables for the analysis according to the questions asked.
 
 ### Exploratory Data Analysis
-EDA involved exploring the sales data to answer key questions, such as:
-
-- What is the overall sales trend?
-- Which category of pizza are customers favorite?
-- What are the peak sales periods?
-- Plato's top selling pizza types?
-
-
-### Results/Findings
-The Insight to this data are as follows;
-
-- Total Revenue: $ 817.8K
-- Total Quantity Sold: 49.5K
-- Total Orders: 21.35K
-- Average Order Value: $ 38.31
-
-- Fridays are the busiest day of the week with a total of 8,106 orders and a revenue generation of $ 136k.
-  
-
-![Data Model - Pizza Sales - Excel 1_24_2025 7_51_16 PM](https://github.com/user-attachments/assets/68b785d3-98ff-4a52-aa13-fec7ffb1566f)
-
-
-
-- July was the busiest month with a total of 4,301 orders and a revenue generation of $ 72.5K.
-  
-
-![Data Model - Pizza Sales - Excel 1_24_2025 7_52_38 PM](https://github.com/user-attachments/assets/4c7daf5c-4413-4b3c-97d9-9e98d75c1d5b)
-
-
-
-- Among the categories of pizza, most of Plato Pizza's customers preferred the Classic with 14,888 quantity sold and generating 27% of its revenue for the year.
-
-
-![Data Model - Pizza Sales - Excel 1_24_2025 7_50_50 PM](https://github.com/user-attachments/assets/1237936e-8846-4829-9cc9-5d5fdc123d5e)
-
-
-- 12pm - 1pm tends to be the busiest time of the day for ordering pizza by their customers.
-  
-
-![Data Model - Pizza Sales - Excel 1_24_2025 7_50_15 PM](https://github.com/user-attachments/assets/d7c5e58d-fc65-4f5b-8098-ee58536e43f6)
-
-
-- Plato's Pizza Top 3 Pizza types are;
-  
-   The Thai Chicken Pizza
-  
-   The Barbecue Chicken Pizza
-  
-   The California Chicken Pizza
-
-
-
-![Data Model - Pizza Sales - Excel 1_24_2025 7_49_41 PM](https://github.com/user-attachments/assets/a5672950-2fe1-4bc0-97a1-0b5f6c530286)
-
-
-### Dashboard
-
-![Data Model - Pizza Sales - Excel 1_24_2025 7_25_30 PM](https://github.com/user-attachments/assets/94fedf2e-ddb6-4773-a5ad-725f8b36cd5f)
-
-
-  
-### Recommendations
-Based on the analysis, I recommend the following actions:
-
-- To reduce operational cost, Plato's pizza should consider operating from 12pm to 11pm.
-- Plato's Pizza should consider running promotions in the month of september and october to boost sales during that period.
-
-
-
-Here are clear, data-driven insights drawn from the three Power BI dashboard pages you shared (Sales, Orders, and Quantity Sold Overviews). I’ve organized the insights into Overall Trends, Menu Category Performance, Dish-Level Performance, Time-Based Patterns, and Pricing Insights.
 
 📊 1. Overall Business Performance
-Steady Month-over-Month Growth
+
+First Quarter:
+
+- Total Sales = $ 159.22k
+- Total Orders = 5,343
+- Total Quantity Sold = 12,097
+
+
+
+Steady Month-over-Month Growth as at March:
 
 Total Sales ≈ 54.6K, up ~7.5% from the previous month.
 
