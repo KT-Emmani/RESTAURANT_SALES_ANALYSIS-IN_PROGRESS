@@ -83,7 +83,7 @@ Quantity Sold by Category:
 ➡️ Italian is the top performer in both sales and orders, but Asian wins in total quantity sold — suggesting many lower-priced, higher-frequency dishes.
 
 
-🍛 3. Top Performing Dishes
+🍛 3. Top 5 Performing Dishes
 
 By Sales:
 
@@ -99,15 +99,17 @@ By Sales:
 
 By Orders
 
-Hamburger — 220
+- Hamburger — 595
 
-Korean Beef Bowl — 203
+- Korean Beef Bowl — 566
 
-Orange Chicken — 166
+- Cheeseburger — 559
 
-Spaghetti & Meat… — 161
+- Tofu Pad Thai — 542
 
-Tofu Pad Thai — 191
+- Spaghetti & Meatballs — 460
+
+
 
 By Quantity Sold
 
