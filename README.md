@@ -10,6 +10,8 @@
 
 - [Key Strategic Insights](#key-strategic-insights)
 
+- [Dashboard](#dashboard)
+
 
 ### Project Overview
 
@@ -215,3 +217,11 @@ Majority of orders fall in the $10–$15 window—keep core menu pricing here.
 5️⃣ Growth Momentum Is Strong
 
 With all KPIs rising month-over-month, expansion (menu variety or store capacity) may be justified.
+
+## Dashboard 
+<img width="3000" height="1903" alt="Power BI Desktop 12_3_2025 9_53_39 PM" src="https://github.com/user-attachments/assets/ea229650-2602-4c27-9d4b-17ab3a621b19" />
+
+<img width="3000" height="1903" alt="Power BI Desktop 12_3_2025 9_54_00 PM" src="https://github.com/user-attachments/assets/d6287d1a-2ec2-4fb9-ad8a-36d35696adc6" />
+
+<img width="3000" height="1903" alt="Power BI Desktop 12_3_2025 9_58_16 PM" src="https://github.com/user-attachments/assets/b51bbf81-7e88-4f22-b32d-c040710eac8d" />
+
