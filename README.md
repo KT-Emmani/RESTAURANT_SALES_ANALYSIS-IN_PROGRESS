@@ -1,4 +1,4 @@
-[Restaurant_final_table.csv](https://github.com/user-attachments/files/23911318/Restaurant_final_table.csv)# RESTAURANT_SALES_ANALYSIS
+[Restaurant_final_table.csv](https://github.com/user-attachments/files/23913372/Restaurant_final_table.csv)# RESTAURANT_SALES_ANALYSIS
 
 ## Table of Contents
 
@@ -31,9 +31,6 @@ In the initial data preparation phase, I performed the following tasks:
 - Created a View Table by joining both tables with the JOIN Statement as the final table to be uploaded to Power Bi for the analysis and visualization.
 
 
-
-
-
 ### Exploratory Data Analysis
 
 📊 1. Overall Business Performance
@@ -47,64 +44,58 @@ First Quarter:
 - Total Quantity Sold = 12,097
 
 
-
-Steady Month-over-Month Growth as at March:
-
-- Total Sales ≈ 54.6K, up ~7.5% from the previous month.
-
-- Total Orders = 1,833, up ~9.4%.
-
-- Total Quantity Sold = 4,142, up ~7.6%.
-
-➡️ The business is growing consistently across all main KPIs—sales, orders, and units sold.
-
 🍽️ 2. Menu Category Performance
-Sales by Category (Sales Page)
 
-Italian is the top-selling category (17.2K).
+Sales by Category: 
 
-Asian follows closely (16.1K).
+- Italian is the top-selling category ($ 49.46K).
 
-Mexican (11.4K) and American (10K) trail behind.
+- Asian follows closely ($ 46.72K).
 
-Orders by Category (Orders Page)
+- Mexican ($ 34.80K) and American ($ 28.24K) trail behind.
 
-Asian leads in order volume (898 orders).
 
-Followed by:
+Orders by Category:
 
-Italian (795)
+- Asian leads in order volume (2,635 orders).
 
-Mexican (767)
+  Followed by:
 
-American (764)
+- Italian (2,292 orders)
 
-Quantity Sold by Category (Quantity Page)
+- Mexican (2,266 orders)
 
-Italian dishes sold the most units (1,186 items).
+- American (2,152 orders)
 
-Followed by:
 
-Mexican (1,026)
+Quantity Sold by Category:
 
-Asian (998)
+- Asian dishes sold the most units (3,470 dishes).
 
-American (894)
+  Followed by:
 
-➡️ Italian is the top performer in both sales and quantity, but Asian wins in total order count—suggesting many lower-priced, higher-frequency dishes.
+- Italian (2,948 dishes)
+
+- Mexican (2,945 dishes)
+
+- American (2,734 dishes)
+
+➡️ Italian is the top performer in both sales and orders, but Asian wins in total quantity sold — suggesting many lower-priced, higher-frequency dishes.
+
 
 🍛 3. Top Performing Dishes
-By Sales
 
-Korean Beef Bowl — 3.8K
+By Sales:
 
-Hamburger — 3.0K
+- Korean Beef Bowl — $ 10.55K
 
-Spaghetti & Meat… — 2.9K
+- Spaghetti & Meatballs — $ 8.44K
 
-Tofu Pad Thai — 2.9K
+- Tofu Pad Thai — $ 8.15K
 
-Orange Chicken — 2.7K
+- Cheeseburger — $ 8.13K
+  
+- Hamburger — $ 8.05K
 
 By Orders
 
