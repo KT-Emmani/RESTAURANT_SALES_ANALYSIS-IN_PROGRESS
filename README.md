@@ -6,7 +6,7 @@
 
 - [About Dataset](#about-dataset)
 
-- [Data Cleaning & Preparation](#data-cleaning-&-preparation)
+- [Data Cleaning And Preparation](#data-cleaning-and-preparation)
 
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 
@@ -36,7 +36,7 @@ The dataset contains 2 tables namely menu_items and order_details with 32 record
 - Item_id	Matches the menu_item_id in the menu_items table
 
 
-## Data Cleaning & Preparation 
+## Data Cleaning And Preparation 
 
 ### Tools Used
 - SQL - Data Cleaning & Manipulation
