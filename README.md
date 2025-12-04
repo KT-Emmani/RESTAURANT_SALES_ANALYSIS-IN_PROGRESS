@@ -15,21 +15,37 @@
 - [Dashboard](#dashboard)
 
 
-### Project Overview
+## Project Overview
 
 This analysis project aims to draw data-driven insights from the first quarter of 2023 dataset of a restaurant. By analyzing various aspects of the data, I’ve organized the insights into Overall Trends, Menu Category Performance, Dish-Level Performance, Time-Based Patterns, and Pricing Insights.
 
+## About Dataset
+The dataset contains 2 tables namely menu_items and order_details with 32 records and 12,234 records respectively.
+
+#### Menu_items
+- Menu_item_id - Unique ID of a menu item
+- Item_name - Name of a menu item
+- Category - Category or type of cuisine of the menu item
+- Price - Price of the menu item (US Dollars $)
+
+#### Order_Details
+- Order_details_id	Unique ID of an item in an order
+- Order_id	ID of an order
+- Order_date	Date an order was put in (MM/DD/YY)
+- Order_time	Time an order was put in (HH:MM:SS AM/PM)
+- Item_id	Matches the menu_item_id in the menu_items table
 
 
-### Data Cleaning & Preparation 
-#### Tools Used
-SQL
-- Data Cleaning & Manipulation
 
-Power Bi
-- Visualization
 
-#### Data Cleaning/Preparation
+## Data Cleaning & Preparation 
+
+### Tools Used
+- SQL - Data Cleaning & Manipulation
+
+- Power Bi - Visualization
+
+### Data Cleaning/Preparation
 In the initial data preparation phase, I performed the following tasks:
 
 - Checked for null or blank values in both table menu items and order details. The Menu_Item table had no null or blank values but the Order_Details table had 137 null values.
@@ -39,7 +55,7 @@ In the initial data preparation phase, I performed the following tasks:
 - Created a View Table by joining both tables with the JOIN Statement as the final table to be uploaded to Power Bi for the analysis and visualization.
 
 
-### Exploratory Data Analysis
+## Exploratory Data Analysis
 
 ### 📊 1. Overall Business Performance
 
@@ -54,7 +70,7 @@ First Quarter:
 
 ### 🍽️ 2. Menu Category Performance
 
-Sales by Category: 
+#### Sales by Category: 
 
 - Italian is the top-selling category ($ 49.46K).
 
@@ -63,11 +79,9 @@ Sales by Category:
 - Mexican ($ 34.80K) and American ($ 28.24K) trail behind.
 
 
-Orders by Category:
+#### Orders by Category:
 
-- Asian leads in order volume (2,635 orders).
-
-  Followed by:
+- Asian leads in order volume (2,635 orders)
 
 - Italian (2,292 orders)
 
@@ -76,11 +90,9 @@ Orders by Category:
 - American (2,152 orders)
 
 
-Quantity Sold by Category:
+#### Quantity Sold by Category:
 
-- Asian dishes sold the most units (3,470 dishes).
-
-  Followed by:
+- Asian dishes sold the most units (3,470 dishes)
 
 - Italian (2,948 dishes)
 
@@ -93,7 +105,7 @@ Quantity Sold by Category:
 
 ### 🍛 3. Top 5 Performing Dishes
 
-By Sales:
+#### By Sales:
 
 - Korean Beef Bowl — $ 10.55K
 
@@ -106,7 +118,7 @@ By Sales:
 - Hamburger — $ 8.05K
 
 
-By Orders:
+#### By Orders:
 
 - Hamburger — 595
 
@@ -120,7 +132,7 @@ By Orders:
 
 
 
-By Quantity Sold:
+#### By Quantity Sold:
 
 - Hamburger — 622
 
@@ -133,6 +145,7 @@ By Quantity Sold:
 - Spaghetti & Meatballs — 470
 
 ➡️ Hamburger is the most consistently ordered and consumed dish, though it is not the highest revenue generator.
+
 ➡️ Korean Beef Bowl generates the most revenue, suggesting a higher price point.
 
 
@@ -185,7 +198,7 @@ Most items sold fall in the $12 – $18 price range.
 ➡️ Your pricing sweet spot is between $12 – $18 — this is where customers buy the most.
 
 
-### 📌 Key Strategic Insights
+## 📌 Key Strategic Insights
 
 
 1️⃣ Optimize Around Peak Hours
